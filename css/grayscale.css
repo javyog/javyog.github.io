@@ -279,21 +279,16 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .about-section {
-    display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
-    text-align: center;
     color: #fff;
-    background-color: #CC1100;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: #AA2222;
+
 }
 
 #map {
@@ -341,27 +336,7 @@ a:focus {
     background-color: #42dca3;
 }
 
-ul.banner-social-buttons {
-    margin-top: 0;
-}
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    ul.banner-social-buttons li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
-    }
-}
 
 footer {
     padding: 50px 0;
