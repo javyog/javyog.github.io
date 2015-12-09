@@ -53,17 +53,17 @@ a {
 .timer_box{
     margin: 20px 18px;
     display: inline-block;
-    padding: 18px 10px 0px 10px;
-    text-align: center;
-    width: 80px;
+    padding: 14px 6px 0px 6px;
+    text-align: left;
+    width: 70px;
 
     
 }
 .timer_box h1{
-    font-size: 30px;
-    margin-top: 5px;
+    font-size: 44px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: white;
 }
 .timer_box p{ margin-top: 0px;}
@@ -95,7 +95,7 @@ a:focus {
 .navbar-custom .navbar-brand:focus {
     outline: 0;
 }
-
+/*Aquí va las letras de la barra cuando toggle*/
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
@@ -107,6 +107,7 @@ a:focus {
     outline: 0;
 }
 
+/*Aquí va las letras de la barra*/
 .navbar-custom a {
     color: #fff;
 }
@@ -143,13 +144,14 @@ a:focus {
 
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 20px 0;
+        padding: 10px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+		
     }
 
     .navbar-custom.top-nav-collapse {
@@ -184,7 +186,7 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 @media(min-width:768px) {
@@ -280,12 +282,14 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.about-section {
+    display: table;
     width: 100%;
-    padding: 50px 0;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    background-color: #CC1100;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
