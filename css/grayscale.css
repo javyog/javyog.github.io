@@ -70,6 +70,7 @@ a {
 
 
 
+
 a:hover,
 a:focus {
     text-decoration: none;
@@ -118,18 +119,6 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-.navbar-custom .nav li a:hover {
-    outline: 0;
-    color: rgba(255,255,255,.8);
-    background-color: transparent;
-}
-
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
-    outline: 0;
-    background-color: transparent;
-}
-
 .navbar-custom .nav li.active {
     outline: 0;
 }
@@ -159,6 +148,33 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
+}
+
+.intro-header {
+  background-color: white;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100%;
+  -o-background-size: cover;
+
+}
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  padding: 100px 0 50px;
+  color: white;
+  background-color: transparent;
+}
+
+
+.article-body{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 100px;
+    color:white;
 }
 
 .intro {
@@ -202,6 +218,28 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+.navbar-custom .nav .dropdown-toggle{
+    color: red;
+}
+.navbar-custom .nav .dropdown-toggle:hover{
+    color: red;
+}
+
+.dropdown-menu:hover {
+    background-color: black;
 }
 
 .btn-circle {
@@ -321,13 +359,13 @@ a:focus {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-
+/*
 .btn-default {
     border: 1px solid #42dca3;
     color: #42dca3;
     background-color: transparent;
 }
-
+*/
 .btn-default:hover,
 .btn-default:focus {
     border: 1px solid #42dca3;

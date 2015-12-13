@@ -13,14 +13,12 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+   <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,26 +39,39 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                      <span class="light">Basia</span>&hearts;Javy
+                      <span class="light">Basia</span><span style="color:red">&hearts;</span>Javy
                 </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <div  class="collapse navbar-collapse navbar-right navbar-main-collapse">
+
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Información</a>
+                        <a class="page-scroll" href="#about">Introducción</a>
                     </li>
   
                     <li>
                         <a class="page-scroll" href="#contact">Contacto</a>
                     </li>
+                
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button">Enlaces <span class="caret"></span></a>
+                        <ul  class="dropdown-menu">
+                            <li><a href="evento.html">El evento</a></li>
+                            <!--  <li><a href="#">Another action</a></li> -->
+                            <!-- <li><a href="#">Something else here</a></li> -->
+                            <!-- <li role="separator" class="divider"></li>-->
+                            <!-- <li><a href="#">Separated link</a></li>-->
+                        </ul>
+                    </li>           
                 </ul>
-            </div>
+            </div>            
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
