@@ -136,45 +136,45 @@
 
 
                     <!-- forma de contacto                                mi boton para español-->
+
+                    <!-- He añadido required para que sea necesario meter los datos. Habría que traducirlo con algun script-->
+                    <!-- Para evitar que formspree me redirija http://stackoverflow.com/questions/33984667/tryin-to-get-around-the-formspree-redirect-->
+                    
                     <div class="row"><h1 class="text-center"><a href="#myModal" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Contáctanos</a></h1></div>
                     
                     <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:#f00">x</button>
                                     <h3 id="myModalLabel"style="color:#000; text-align:justify;">Mándanos un mensaje</h3>
                                 </div>
                                 <div class="modal-body">
                                     <form role="form" action="http://formspree.io/soyjavy@hotmail.com" method="POST">
                                     <div class="form-group">
-                                        <label class="control-label" for="email" style="color:#000">
-                                            <h4>Nombre</h4>
-                                        </label>                                        
-                                        <input class="form-control" placeholder="Pepe Pérez" data-trigger="manual"type="text" name="name" style="color:#000">                                    
+                                        <label class="control-label pull-left" for="email" style="color:#000">Nombre</label>                                        
+                                        <input class="form-control" placeholder="Pepe Pérez" data-trigger="manual"type="text" name="name" style="color:#000" required>                                    
 
                                     </div>
                                     <div class="form-group">
-                                        <label class="control-label" style="color:#000" for="comment">
-                                            <h4>Mensaje</h4>
-                                        </label>  
-                                        <textarea class="form-control" placeholder="Tu mensaje aquí.." data-placement="top" data-trigger="manual" name="name"rows="3" id="comment"></textarea>
+                                        <label class="control-label pull-left" style="color:#000" for="comment">Mensaje</label>  
+                                        <textarea class="form-control" placeholder="Tu mensaje aquí.." data-placement="top" data-trigger="manual" name="name"rows="3" id="comment" required></textarea>
 
                                     </div>
 
                                     <div class="form-group">
-                                        <label  class="control-label" style="color:#000">
-                                            <h4>E-Mail</h4>
-                                        </label>                                        
-                                        <input class="form-control" placeholder="ejemplo@email.com (para poder responderte)" data-placement="top" data-trigger="manual" type="email" name="_replyto">                               
+                                        <label  class="control-label pull-left" style="color:#000" >E-Mail</label>                                        
+                                        <input class="form-control" placeholder="ejemplo@email.com (para poder responderte)" data-placement="top" data-trigger="manual" type="email" name="_replyto"required>                               
                                     </div>
 
-                                        <div class="form-group"style="color:#000"><button type="submit" class="btn btn-success pull-right">Enviar</button> <p class="help-block pull-left text-danger hide" id="form-error"style="color:#000">&nbsp; The form is not valid. </p></div>
+                                        <div class="form-group" style="color:#000">
+                                            <button style="color:#fff" class="btn btn-danger pull-right" data-dismiss="modal" aria-hidden="true">Cancelar</button>  
+                                            <button type="submit" class="btn btn-success pull-right">Enviar</button>                                    
+
+                                        </div>
                                     </form>
                                 </div>
-                                <div class="modal-footer">
-                                    <button style="color:#fff" class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Cancelar</button>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -189,6 +189,47 @@
                 <div class="col-md-5">
                     <h2 align=left>WYŚLIJ DO NAS ZAPYTANIE</h2>
                     <p align=justify>&emsp;Jesteśmy do Waszej dyspozycji. Jeśli macie pytania lub wątpliwości, kliknijcie poniżej, aby wysłać e-mail.</p>
+                     <!-- forma de contacto                                polaco-->
+                    <div class="row"><h1 class="text-center"><a href="#myModal2" role="button" class="btn btn-primary btn-lg" data-toggle="modal">Kontakt</a></h1></div>
+                    
+                    <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:#f00">x</button>
+                                    <h3 id="myModalLabel"style="color:#000; text-align:justify;">Mándanos un mensaje</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <form role="form" action="http://formspree.io/cspline3d@gmail.com" method="POST">
+                                    <div class="form-group">
+                                        <label class="control-label pull-left" for="email" style="color:#000">Nombre</label>                                        
+                                        <input class="form-control" placeholder="Pepe Pérez" data-trigger="manual"type="text" name="name" style="color:#000">                                    
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label pull-left" style="color:#000" for="comment">Mensaje</label>  
+                                        <textarea class="form-control" placeholder="Tu mensaje aquí.." data-placement="top" data-trigger="manual" name="name"rows="3" id="comment"></textarea>
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label  class="control-label pull-left" style="color:#000">E-Mail</label>                                        
+                                        <input class="form-control" placeholder="ejemplo@email.com (para poder responderte)" data-placement="top" data-trigger="manual" type="email" name="_replyto">                               
+                                    </div>
+
+                                        <div class="form-group" style="color:#000">
+                                            <button style="color:#fff" class="btn btn-danger pull-right" data-dismiss="modal" aria-hidden="true">Cancelar</button>  
+                                            <button type="submit" class="btn btn-success pull-right">Wyślij</button>                                    
+
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- forma de contacto -->
                 </div>
             </div>  
 
