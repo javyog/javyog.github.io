@@ -20,27 +20,28 @@ COMMING SOON PAGE
     function setDate(){
         var now = new Date();
         if( launch < now ){
-            days.html('<h1>0</H1><p>Day</p>');
-            hours.html('<h1>0</h1><p>Hour</p>');
-            minutes.html('<h1>0</h1><p>Minute</p>');
-            seconds.html('<h1>0</h1><p>Second</p>');
-            message.html('OUR SITE IS NOT READY YET...');
+            days.html('<h1>0</h1>');
+            hours.html('<h1>0</h1>');
+            minutes.html('<h1>0</h1>');
+            seconds.html('<h1>0</h1>');
+            message.html('¡Ya despegamos!');
         }
         else{
             var s = -now.getTimezoneOffset()*60 + (launch.getTime() - now.getTime())/1000;
             var d = Math.floor(s/86400);
-            days.html('<h1>'+d+'</h1><p>Día'+(d>1?'s':''),'</p>');
+            /*days.html('<h1>'+d+'</h1><p>Día'+(d>1?'s':''),'</p>');*/
+            days.html('<h1>'+d+'D</h1>');
             s -= d*86400;
 
             var h = Math.floor(s/3600);
-            hours.html('<h1>'+h+'</h1><p>Hora'+(h>1?'s':''),'</p>');
+            hours.html('<h1>'+h+'H</h1>');
             s -= h*3600;
 
             var m = Math.floor(s/60);
-            minutes.html('<h1>'+m+'</h1><p>Minuto'+(m>1?'s':''),'</p>');
+            minutes.html('<h1>'+m+'\'</h1>');
 
             s = Math.floor(s-m*60);
-            seconds.html('<h1>'+s+'</h1><p>Segundo'+(s>1?'s':''),'</p>');
+            seconds.html('<h1>'+s+'"</h1>');
             setTimeout(setDate, 1000);
 
             message.html('OUR SITE IS NOT READY YET, BUT WE ARE COMING SOON');
