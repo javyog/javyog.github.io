@@ -19,7 +19,7 @@ html {
 
 h1{
     font-size: 30px; /* Some tweener fallback that doesn't look awful */ 
-    font-size: 3.2vw; 
+    font-size: 4vw; 
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -35,6 +35,28 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+@media all and (min-width: 768px) {
+.timer_box h1,
+h1{
+    font-size: 28px; 
+    font-size: 4vw; 
+  }
+}
+
+@media all and (max-width: 768px) and (min-width: 500px) {
+.timer_box h1,
+h1{
+    font-size: 6vw;
+  }
+}
+
+@media all and (max-width: 499px) and (min-width: 50px) {
+.timer_box h1,
+h1{
+    font-size: 7vw;
+  }
 }
 
 p {
@@ -72,8 +94,7 @@ a {
         transition:all 1s ease;
 }
 .timer_box h1{
-    font-size: 28px; 
-    font-size: 3.5vw; 
+
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -252,6 +273,7 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
+
 }
 
 .navbar-custom .nav li a:hover {
