@@ -28,7 +28,7 @@ h1{
 h2{
     margin: 0 0 20px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 35px;
+    font-size: 38px;
     letter-spacing: 1px; 
     font-weight: 700;
 }
@@ -36,7 +36,7 @@ h2{
 h3{
     
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 29px;
+    font-size: 32px;
     letter-spacing: 1px;     
 }
 
@@ -51,13 +51,43 @@ h6 {
 
 .white_with_black_stroke{
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
+.white_with_red_stroke{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+}
+
+.white_with_gray_stroke{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: gray;
+}
+
+.gray_with_red_stroke{
+    -webkit-text-fill-color: gray; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+}
+
 .gray_with_black_stroke{
     -webkit-text-fill-color: #888; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+}
+
+.gray_with_white_stroke{
+    -webkit-text-fill-color: #888; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+.white_with_red_stroke{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
 }
 
 
@@ -248,13 +278,13 @@ a:focus {
 
 
 .article-body{
-    width: 100%;
+
     height: auto;
     background-color: white;
     margin-top: 100px;
     color:white;
-    margin-right: 5px;
-    margin-left:5px;
+    margin-right: 10px;
+    margin-left:10px;
 }
 
 .thanks{
@@ -502,8 +532,11 @@ body {
 
 
 
-#evento{
-    color:black;
+.links{
+    color:black!important;
+}
+.links:hover{
+      color:red!important;
 }
 
 #evento:hover{
@@ -539,3 +572,13 @@ body {
     color:black;
 }
 
+.btn-black{
+ 
+    height: 40px;
+    width: 40px;
+    padding: 0px 0px;
+    border: 2px solid #000;
+    border-color: black;
+    font-size: 30px;
+
+}
