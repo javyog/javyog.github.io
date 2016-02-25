@@ -13,6 +13,30 @@ $(window).scroll(function() {
     }
 });
 
+
+// Trying to avoid issue when resizing the or zooming the windows
+$(function(){
+$(window).bind("resize",function(){
+    if($(this).width() < 768){
+    $('nav').removeClass('navbar-fixed-top').addClass('navbar-static-top')
+    }
+    else{
+    $('nav').removeClass('navbar-static-top').addClass('navbar-fixed-top')
+    }
+})
+})
+
+
+$( document ).ready(function() {
+    if($(this).width() < 768){
+    $('nav').removeClass('navbar-fixed-top').addClass('navbar-static-top')
+    }
+    else{
+    $('nav').removeClass('navbar-static-top').addClass('navbar-fixed-top')
+    }
+});
+// Zooming issue ends
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
