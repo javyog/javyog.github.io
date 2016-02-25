@@ -250,9 +250,11 @@ a:focus {
 .article-body{
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color: white;
     margin-top: 100px;
     color:white;
+    margin-right: 5px;
+    margin-left:5px;
 }
 
 .thanks{
