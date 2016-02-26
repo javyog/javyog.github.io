@@ -31,6 +31,7 @@ h2{
     font-size: 35px;
     letter-spacing: 1px; 
     font-weight: 700;
+    text-align: left;
 }
 
 h3{
@@ -38,6 +39,7 @@ h3{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
     letter-spacing: 1px;     
+    text-align: left;
 }
 
 h4,
@@ -48,48 +50,6 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
-
-.white_with_black_stroke{
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-}
-.white_with_red_stroke{
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: red;
-}
-
-.white_with_gray_stroke{
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: gray;
-}
-
-.gray_with_red_stroke{
-    -webkit-text-fill-color: gray; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: red;
-}
-
-.gray_with_black_stroke{
-    -webkit-text-fill-color: #888; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-}
-
-.gray_with_white_stroke{
-    -webkit-text-fill-color: #888; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
-}
-
-.white_with_red_stroke{
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: red;
-}
-
 
 .text-justify{
   text-align: justify;
@@ -107,14 +67,14 @@ h1{
 @media all and (max-width: 768px) and (min-width: 500px) {
 .timer_box h1,
 h1{
-    font-size: 6vw;
+    font-size: 5.5vw;
   }
 }
 
 @media all and (max-width: 499px) and (min-width: 50px) {
 .timer_box h1,
 h1{
-    font-size: 7vw;
+    font-size: 6.5vw;
   }
 }
 
@@ -194,7 +154,7 @@ a:focus {
 }
 
 .navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
+    padding: 3px 5px;
     font-size: 16px;
     color: #fff;
 }
@@ -581,4 +541,44 @@ body {
     border-color: black;
     font-size: 30px;
 
+}
+.white_with_black_stroke{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.white_with_red_stroke{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+}
+
+.white_with_gray_stroke{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: gray;
+}
+
+.gray_with_red_stroke{
+    -webkit-text-fill-color: gray; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+}
+
+.gray_with_black_stroke{
+    -webkit-text-fill-color: #888; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.gray_with_white_stroke{
+    -webkit-text-fill-color: #888; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+.white_with_red_stroke{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
 }
