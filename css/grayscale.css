@@ -52,8 +52,8 @@ h6 {
 @media all and (min-width: 768px) {
 .timer_box h1,
 h1{
-    font-size: 28px;
-    font-size: 3.5vw;
+    /*font-size: 5.5vw;*/
+    font-size: 60px;
   }
 
 h2{
@@ -70,7 +70,8 @@ h2{
 @media all and (max-width: 768px) and (min-width: 500px) {
 .timer_box h1,
 h1{
-    font-size: 5.5vw;
+    font-size: 45px;
+    /*font-size: 5.5vw;*/
   }
 
 h2{
@@ -87,7 +88,8 @@ h2{
 @media all and (max-width: 499px) and (min-width: 50px) {
 .timer_box h1,
 h1{
-    font-size: 6.5vw;
+    font-size: 30px;
+    /*font-size: 6.5vw;*/
   }
 
  h2{
