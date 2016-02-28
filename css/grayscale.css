@@ -25,14 +25,7 @@ h1{
     color: white;
 
 }
-h2{
-    margin: 0 0 20px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 35px;
-    letter-spacing: 1px; 
-    font-weight: 700;
-    text-align: left;
-}
+
 
 h3{
     
@@ -60,8 +53,18 @@ h6 {
 .timer_box h1,
 h1{
     font-size: 28px;
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
+
+h2{
+    margin: 0 0 20px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px; 
+    font-weight: 700;
+    text-align: left;
+}
+
 }
 
 @media all and (max-width: 768px) and (min-width: 500px) {
@@ -69,6 +72,16 @@ h1{
 h1{
     font-size: 5.5vw;
   }
+
+h2{
+    margin: 0 0 20px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px; 
+    font-weight: 700;
+    text-align: left;
+}
+
 }
 
 @media all and (max-width: 499px) and (min-width: 50px) {
@@ -76,6 +89,16 @@ h1{
 h1{
     font-size: 6.5vw;
   }
+
+ h2{
+    margin: 0 0 20px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px; 
+    font-weight: 700;
+    text-align: left;
+}
+ 
 }
 
 p {
