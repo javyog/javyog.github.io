@@ -64,7 +64,9 @@ h2{
     font-weight: 700;
     text-align: left;
 }
-
+.text_align_mobile{
+    text-align: justify;
+}
 }
 
 @media all and (max-width: 768px) and (min-width: 500px) {
@@ -83,6 +85,10 @@ h2{
     text-align: left;
 }
 
+.text_align_mobile{
+    text-align: justify;
+}
+
 }
 
 @media all and (max-width: 499px) and (min-width: 50px) {
@@ -98,6 +104,10 @@ h1{
     font-size: 25px;
     letter-spacing: 1px; 
     font-weight: 700;
+    text-align: left;
+}
+
+.text_align_mobile{
     text-align: left;
 }
  
