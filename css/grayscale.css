@@ -317,11 +317,17 @@ a:focus {
     text-align: center;
     color: #fff;
     font-family:sans-serif;
-    background-color: #42dca3;
+    background-color: #AA2222;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.error h1{
+
+    font-size: 5.5vw;
+
 }
 
 
