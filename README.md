@@ -1,1 +1,2 @@
-Webpage for helping our guests out :D
+This is a web dedicated to our wedding.
+We hope it helps!
