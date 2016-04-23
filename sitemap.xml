@@ -6,40 +6,4 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 
-<url>
-  <loc>http://basiajavy.com/</loc>
-  <lastmod>2016-03-03T09:28:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://basiajavy.com/pages/evento.html</loc>
-  <lastmod>2016-03-02T21:28:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://basiajavy.com/pages/boda-polaca.html</loc>
-  <lastmod>2016-03-02T21:28:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://basiajavy.com/pages/polaco-supervivencia.html</loc>
-  <lastmod>2016-03-02T21:28:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://basiajavy.com/pages/warsaw.html</loc>
-  <lastmod>2016-03-02T21:28:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://basiajavy.com/pages/peluqueria.html</loc>
-  <lastmod>2016-03-03T09:28:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://basiajavy.com/pages/alojamiento.html</loc>
-  <lastmod>2016-03-03T09:28:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://basiajavy.com/pages/slub.html</loc>
-  <lastmod>2016-03-02T21:28:11+00:00</lastmod>
-</url>
-<url>
-  <loc>http://basiajavy.com/index.html</loc>
-  <lastmod>2016-03-02T21:28:11+00:00</lastmod>
-</url>
 </urlset>
